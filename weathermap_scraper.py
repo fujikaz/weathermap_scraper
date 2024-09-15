@@ -12,6 +12,7 @@ from optparse import OptionParser
 import sys
 import os
 import urllib.request
+import shutil
 
 tz = '0900JST'
 
@@ -48,7 +49,11 @@ if os.path.isdir(dir_string) is False:
 os.chdir(dir_string)
 
 # scraping
-for i, j in wm_files:
-    url = 'https://' + i + j
-    save_file_name = j
-    urllib.request.urlretrieve(url, save_file_name)
+try:
+    for i, j in wm_files:
+        url = 'https://' + i + j
+        save_file_name = j
+        urllib.request.urlretrieve(url, save_file_name)
+except urllib.error.URLError:
+    print('There is a URL Error!')
+    shutil.rmtree('../' + dir_string)
