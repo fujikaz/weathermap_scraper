@@ -21,7 +21,8 @@ wm_files = [
     ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'aupq35_00.pdf'),
     ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'aupq78_00.pdf'),
     ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'axfe578_00.pdf'),
-    ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'axjp140_00.pdf')
+    ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'axjp140_00.pdf'),
+    ('www.data.jma.go.jp/yoho/data/jishin/', 'kaisetsu_tanki_latest.pdf')
 ]
 
 # parse options and args
