@@ -18,10 +18,10 @@ tz = '0900JST'
 
 wm_files = [
     ('www.data.jma.go.jp/fcd/yoho/data/wxchart/quick/', 'ASAS_MONO.pdf'),
-    ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'aupq35_00.pdf'),
-    ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'aupq78_00.pdf'),
-    ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'axfe578_00.pdf'),
-    ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'axjp140_00.pdf'),
+    ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'aupq35_12.pdf'),
+    ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'aupq78_12.pdf'),
+    ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'axfe578_12.pdf'),
+    ('www.jma.go.jp/bosai/numericmap/data/nwpmap/', 'axjp140_12.pdf'),
     ('www.data.jma.go.jp/yoho/data/jishin/', 'kaisetsu_tanki_latest.pdf')
 ]
 
